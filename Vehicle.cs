@@ -10,6 +10,8 @@ namespace Class_6
         
         public abstract void Drive();
 
+        public virtual void ShowColor(){}
+
         //1. create new abstract method. 
         public abstract void TurnOff();
         

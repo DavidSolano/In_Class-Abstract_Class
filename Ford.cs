@@ -25,5 +25,14 @@ namespace Class_6
         {
             Console.WriteLine("the Ford has started");
         }
+
+        public override void ShowColor()
+        {
+            make = "Ford";
+            model = "pathfinder";
+            color = "tan";
+
+            Console.WriteLine($"the color is {color}");
+        }
     }
 }
